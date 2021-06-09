@@ -8,7 +8,9 @@ func main() {
 		"Blue":   "#0000FF",
 		"Yellow": "#FFFF00",
 	}
-
+	for k, v := range colors1 {
+		println(k, v)
+	}
 	fmt.Println(colors1)
 
 	delete(colors1, "Blue")
